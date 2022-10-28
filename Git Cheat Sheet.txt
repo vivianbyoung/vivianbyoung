@@ -1,4 +1,0 @@
-Commit:
-git add --all
-git commit -m "Update info here"
-git push -u origin main

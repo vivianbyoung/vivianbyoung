@@ -1,8 +1,21 @@
 ---
 layout: default
-title: Resume
+title: Art
 ---
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
 <div class="blurb">
-	<h1>Hello world!</h1>
-	<p>Lorem ipsum...</a></p>
-</div><!-- /.blurb -->
+	<h1>Art</h1>
+</div>
+
+<div class="blurb">
+	<h2>Sushi</h2>
+	<model-viewer
+	auto-rotate
+	src = "assets/art/Sushi.glb"
+	poster = "assets/art/Sushi.png"
+	shadow-intensity = "1"
+	camera-controls touch-action = "pan-y">
+	</model-viewer>
+
+</div>
