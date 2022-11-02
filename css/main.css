@@ -7,9 +7,11 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: 500;
+    font-size: 0.9em;
+    text-align: center;
 }
 nav ul li, footer ul li {
-    display: inline;
+    display: inline-block;
     margin-right: 20px;
 }
 a {
@@ -17,11 +19,13 @@ a {
     color: #999;
 }
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: #333;
 }
 h1 {
     font-size: 3em;
     font-family: 'Roboto','Helvetica', 'Arial', 'Sans-Serif';
+    text-align: center;
 }
 h2 {
     font-size: 2em;
@@ -35,7 +39,6 @@ p {
 }
 footer {
     border-top: 1px solid #d5d5d5;
-    font-size: 0.9em;
 }
 
 ul.posts { 
@@ -54,10 +57,10 @@ button {
     padding: 15px 35px;
     text-align: center;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1em;
   }
 
 button:hover {
-    background-color:black;
+    background-color: #333;
     transition: 0.5s;
 }
